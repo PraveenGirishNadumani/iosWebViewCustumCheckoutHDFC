@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        webViewRazorpayCheckout.customUserAgent = "Mozilla/5.0"
         webViewRazorpayCheckout.load(URLRequest(url: URL(string:"https://praveengirishnadumani.github.io/Testing/CustomCheckoutCard.html")!))
     }
 
